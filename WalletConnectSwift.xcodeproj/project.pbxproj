@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042A13D52DE44DC400C6DE18 /* Solana in Frameworks */ = {isa = PBXBuildFile; productRef = 042A13D42DE44DC400C6DE18 /* Solana */; };
+		04F709652DE6450900691D1B /* Solana in Frameworks */ = {isa = PBXBuildFile; productRef = 04F709642DE6450900691D1B /* Solana */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F709652DE6450900691D1B /* Solana in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042A13D52DE44DC400C6DE18 /* Solana in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +83,7 @@
 				042A13AB2DE449A000C6DE18 /* WalletConnectSwift */,
 				042A13B92DE449A100C6DE18 /* WalletConnectSwiftTests */,
 				042A13C32DE449A100C6DE18 /* WalletConnectSwiftUITests */,
+				04F709602DE6365800691D1B /* Frameworks */,
 				042A13AA2DE449A000C6DE18 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +96,13 @@
 				042A13C02DE449A100C6DE18 /* WalletConnectSwiftUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		04F709602DE6365800691D1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +125,7 @@
 			);
 			name = WalletConnectSwift;
 			packageProductDependencies = (
+				04F709642DE6450900691D1B /* Solana */,
 			);
 			productName = WalletConnectSwift;
 			productReference = 042A13A92DE449A000C6DE18 /* WalletConnectSwift.app */;
@@ -140,7 +149,6 @@
 			);
 			name = WalletConnectSwiftTests;
 			packageProductDependencies = (
-				042A13D42DE44DC400C6DE18 /* Solana */,
 			);
 			productName = WalletConnectSwiftTests;
 			productReference = 042A13B62DE449A100C6DE18 /* WalletConnectSwiftTests.xctest */;
@@ -202,7 +210,7 @@
 			mainGroup = 042A13A02DE4499F00C6DE18;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				042A13D32DE44DC400C6DE18 /* XCRemoteSwiftPackageReference "Solana" */,
+				04F709632DE6421300691D1B /* XCRemoteSwiftPackageReference "Solana" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 042A13AA2DE449A000C6DE18 /* Products */;
@@ -561,20 +569,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		042A13D32DE44DC400C6DE18 /* XCRemoteSwiftPackageReference "Solana" */ = {
+		04F709632DE6421300691D1B /* XCRemoteSwiftPackageReference "Solana" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/metaplex-foundation/Solana.Swift";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		042A13D42DE44DC400C6DE18 /* Solana */ = {
+		04F709642DE6450900691D1B /* Solana */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 042A13D32DE44DC400C6DE18 /* XCRemoteSwiftPackageReference "Solana" */;
+			package = 04F709632DE6421300691D1B /* XCRemoteSwiftPackageReference "Solana" */;
 			productName = Solana;
 		};
 /* End XCSwiftPackageProductDependency section */

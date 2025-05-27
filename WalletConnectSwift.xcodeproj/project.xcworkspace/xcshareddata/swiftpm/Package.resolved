@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/metaplex-foundation/Solana.Swift",
       "state" : {
-        "branch" : "master",
-        "revision" : "bc2e7e5d6943084f3e3adb88a9150c24c864063f"
+        "revision" : "f7bd54eee1ccf31f717b1a98b64b9ae12413e66d",
+        "version" : "2.0.2"
       }
     },
     {
